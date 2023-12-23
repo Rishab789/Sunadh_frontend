@@ -8,7 +8,6 @@
   "name": "sunadhtech_clone_app",
   "version": "1.0.0",
   "description": "Sunadh Technologies Clone web app",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html"
