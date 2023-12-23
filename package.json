@@ -10,7 +10,7 @@
   "description": "Sunadh Technologies Clone web app",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "build": "parcel index.html"
   },
   "author": "Prakash Chandra Bera",
   "license": "ISC",
