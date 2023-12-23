@@ -7,12 +7,14 @@ import Cards from './components/Cards'
 import WhyChoose from './components/WhyChoose'
 import LastSection from './components/LastSection'
 import Copyright from './components/Copyright'
+import TopHead from './components/TopHead'
 
 
 
 const App = () => {
     return (
         <div>
+            <TopHead />
 
             <Navbar />
             <Hero />

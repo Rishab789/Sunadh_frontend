@@ -3,7 +3,7 @@ import React from 'react'
 const TopHead = () => {
     return (
         <div>
-            <main className="flex justify-around items-center bg-[#f9f9f9] h-14 px-24">
+            <main className="flex justify-around items-center bg-[#f9f9f9] h-14 px-24 ">
                 <div className=" hidden md:flex items-center gap-2">
                     <i class="fa-solid fa-clock-rotate-left text-[#f27c1d] text-xl"></i>
                     <p className="text-sm">

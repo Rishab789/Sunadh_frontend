@@ -2962,53 +2962,60 @@ var _lastSection = require("./components/LastSection");
 var _lastSectionDefault = parcelHelpers.interopDefault(_lastSection);
 var _copyright = require("./components/Copyright");
 var _copyrightDefault = parcelHelpers.interopDefault(_copyright);
+var _topHead = require("./components/TopHead");
+var _topHeadDefault = parcelHelpers.interopDefault(_topHead);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topHeadDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 17,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
-                fileName: "src/App.js",
-                lineNumber: 18,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _historySecDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 19,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _courseDetailsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 20,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _historySecDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 21,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _whyChooseDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _courseDetailsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 22,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _lastSectionDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 23,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _copyrightDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _whyChooseDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 24,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _lastSectionDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 25,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _copyrightDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 26,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 9
     }, undefined);
 };
@@ -3016,7 +3023,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 31,
+    lineNumber: 33,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3027,7 +3034,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","./components/Hero":"5iHEa","./components/HistorySec":"e0XfY","./components/CourseDetails":"7ndT0","./components/Cards":"9rJEe","./components/WhyChoose":"h5EHq","./components/LastSection":"1AtDb","./components/Copyright":"h3bWq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/Navbar":"5EEXV","./components/Hero":"5iHEa","./components/HistorySec":"e0XfY","./components/CourseDetails":"7ndT0","./components/Cards":"9rJEe","./components/WhyChoose":"h5EHq","./components/LastSection":"1AtDb","./components/Copyright":"h3bWq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/TopHead":"jBisN"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27226,141 +27233,162 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _sunadhRemovebgPreviewPng = require("../public/assets/sunadh-removebg-preview.png");
 var _sunadhRemovebgPreviewPngDefault = parcelHelpers.interopDefault(_sunadhRemovebgPreviewPng);
-var _topHead = require("../components/TopHead");
-var _topHeadDefault = parcelHelpers.interopDefault(_topHead);
+var _react = require("react");
+var _s = $RefreshSig$();
 const Navbar = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _topHeadDefault.default), {}, void 0, false, {
-                fileName: "src/components/Navbar.js",
-                lineNumber: 8,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-                className: "w-full md:px-32 font-sans h-10 md:h-20 sticky top-0 bg-white",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex justify-between px-5  md:flex md:justify-between items-center",
+    _s();
+    const [visible, setVisible] = (0, _react.useState)(false);
+    const [navbar, setNavbar] = (0, _react.useState)(false);
+    const scrollBehaviour = ()=>{
+        if (window.scrollY >= 80) setNavbar(true);
+        else setNavbar(false);
+    };
+    window.addEventListener("scroll", scrollBehaviour);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: navbar ? "sticky top-0  duration-500 shadow-lg w-full  md:px-32 font-sans  bg-white h-20 stick" : "sticky top-0  w-full  md:px-32 font-sans  bg-white h-20 stick",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "h-20 md:h-20   flex flex-col justify-between px-0 md:px-5 md:flex-row  md:flex md:justify-between md:items-center ",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: " md:block flex justify-between items-center ",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("di", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _sunadhRemovebgPreviewPngDefault.default),
-                                className: "cursor-pointer"
-                            }, void 0, false, {
-                                fileName: "src/components/Navbar.js",
-                                lineNumber: 12,
-                                columnNumber: 21
-                            }, undefined)
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _sunadhRemovebgPreviewPngDefault.default),
+                            className: "cursor-pointer"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 11,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                            className: "hidden md:block",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "flex gap-14 text-base cursor-pointer",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "hover:text-gray-300 transition",
-                                        children: "Home"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Navbar.js",
-                                        lineNumber: 16,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "hover:text-gray-300",
-                                        children: "About"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Navbar.js",
-                                        lineNumber: 17,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "hover:text-gray-300",
-                                        children: [
-                                            "Courses ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                class: "fa-solid fa-angle-down text-xs"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Navbar.js",
-                                                lineNumber: 18,
-                                                columnNumber: 69
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Navbar.js",
-                                        lineNumber: 18,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "hover:text-gray-300",
-                                        children: "Contact"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Navbar.js",
-                                        lineNumber: 19,
-                                        columnNumber: 25
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "hover:text-gray-300",
-                                        children: [
-                                            "Blog ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                                class: "fa-solid fa-angle-down text-xs"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Navbar.js",
-                                                lineNumber: 20,
-                                                columnNumber: 66
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Navbar.js",
-                                        lineNumber: 20,
-                                        columnNumber: 25
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Navbar.js",
-                                lineNumber: 15,
-                                columnNumber: 21
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Navbar.js",
-                            lineNumber: 14,
-                            columnNumber: 17
+                            lineNumber: 32,
+                            columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "block pr-2 md:hidden",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                                class: "fa-solid fa-bars text-2xl"
+                                class: "fa-solid fa-bars text-2xl",
+                                onClick: ()=>{
+                                    setVisible(!visible);
+                                }
                             }, void 0, false, {
                                 fileName: "src/components/Navbar.js",
-                                lineNumber: 25,
-                                columnNumber: 21
+                                lineNumber: 35,
+                                columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 23,
-                            columnNumber: 17
+                            lineNumber: 33,
+                            columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 10,
-                    columnNumber: 13
+                    lineNumber: 31,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                    className: visible ? "bg-[#f9f9f9]  px-8 w-full h-screen absolute  md:px-0  md:block md:w-[50%] md:static md:h-10 " : "hidden md:px-0  md:block md:w-[50%] md:static md:h-10 ",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "md:hidden float-right",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                class: "fa-solid fa-xmark text-4xl",
+                                onClick: ()=>{
+                                    setVisible(!visible);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.js",
+                                lineNumber: 43,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Navbar.js",
+                            lineNumber: 42,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "list-none flex flex-col md:flex-row  md:flex gap-14 text-base cursor-pointer md:mt-0 mt-8 ",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "hover:text-gray-300 transition",
+                                    children: "Home"
+                                }, void 0, false, {
+                                    fileName: "src/components/Navbar.js",
+                                    lineNumber: 48,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "hover:text-gray-300",
+                                    children: "About"
+                                }, void 0, false, {
+                                    fileName: "src/components/Navbar.js",
+                                    lineNumber: 49,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "hover:text-gray-300",
+                                    children: [
+                                        "Courses ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            class: "fa-solid fa-angle-down text-xs"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Navbar.js",
+                                            lineNumber: 50,
+                                            columnNumber: 69
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Navbar.js",
+                                    lineNumber: 50,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "hover:text-gray-300",
+                                    children: "Contact"
+                                }, void 0, false, {
+                                    fileName: "src/components/Navbar.js",
+                                    lineNumber: 51,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    className: "hover:text-gray-300",
+                                    children: [
+                                        "Blog ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                            class: "fa-solid fa-angle-down text-xs"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Navbar.js",
+                                            lineNumber: 52,
+                                            columnNumber: 66
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Navbar.js",
+                                    lineNumber: 52,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Navbar.js",
+                            lineNumber: 47,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Navbar.js",
+                    lineNumber: 41,
+                    columnNumber: 17
                 }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Navbar.js",
-                lineNumber: 9,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Navbar.js",
+            lineNumber: 30,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/Navbar.js",
-        lineNumber: 7,
-        columnNumber: 13
+        lineNumber: 29,
+        columnNumber: 9
     }, undefined);
 };
+_s(Navbar, "4bsRJqqFKiE0+WpJco4bQV8lNYk=");
 _c = Navbar;
 exports.default = Navbar;
 var _c;
@@ -27371,7 +27399,7 @@ $RefreshReg$(_c, "Navbar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../public/assets/sunadh-removebg-preview.png":"42ayX","../components/TopHead":"jBisN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"42ayX":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../public/assets/sunadh-removebg-preview.png":"42ayX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"42ayX":[function(require,module,exports) {
 module.exports = require("17916a40edaf7d6d").getBundleURL("aXMci") + "sunadh-removebg-preview.ffebcf4d.png" + "?" + Date.now();
 
 },{"17916a40edaf7d6d":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -27409,159 +27437,7 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"jBisN":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$905f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$905f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const TopHead = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-            className: "flex justify-around items-center bg-[#f9f9f9] h-14 px-24",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: " hidden md:flex items-center gap-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            class: "fa-solid fa-clock-rotate-left text-[#f27c1d] text-xl"
-                        }, void 0, false, {
-                            fileName: "src/components/TopHead.js",
-                            lineNumber: 8,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-sm",
-                            children: "Mon-Sat, 9am-7pm Closed Sundays"
-                        }, void 0, false, {
-                            fileName: "src/components/TopHead.js",
-                            lineNumber: 9,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/TopHead.js",
-                    lineNumber: 7,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex items-center gap-2",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            class: "fa-regular fa-envelope text-[#f27c1d] text-xl"
-                        }, void 0, false, {
-                            fileName: "src/components/TopHead.js",
-                            lineNumber: 13,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-sm",
-                            children: "info@sunadhtechnologies.com"
-                        }, void 0, false, {
-                            fileName: "src/components/TopHead.js",
-                            lineNumber: 14,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/TopHead.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: " hidden md:bg-[#f27c1d] text-white h-14 md:flex items-center px-10 font-bold tracking-wider",
-                        children: "+91 7674 813 794"
-                    }, void 0, false, {
-                        fileName: "src/components/TopHead.js",
-                        lineNumber: 18,
-                        columnNumber: 21
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/TopHead.js",
-                    lineNumber: 17,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "hidden md:block",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        className: "flex gap-8 text-[#f27c1d] text-lg",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "fa-brands fa-facebook-f"
-                            }, void 0, false, {
-                                fileName: "src/components/TopHead.js",
-                                lineNumber: 22,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "fa-brands fa-twitter"
-                            }, void 0, false, {
-                                fileName: "src/components/TopHead.js",
-                                lineNumber: 23,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "fa-brands fa-instagram"
-                            }, void 0, false, {
-                                fileName: "src/components/TopHead.js",
-                                lineNumber: 24,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "fa-brands fa-linkedin-in"
-                            }, void 0, false, {
-                                fileName: "src/components/TopHead.js",
-                                lineNumber: 25,
-                                columnNumber: 25
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "fa-brands fa-youtube"
-                            }, void 0, false, {
-                                fileName: "src/components/TopHead.js",
-                                lineNumber: 26,
-                                columnNumber: 25
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/TopHead.js",
-                        lineNumber: 21,
-                        columnNumber: 21
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/TopHead.js",
-                    lineNumber: 20,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/TopHead.js",
-            lineNumber: 6,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/TopHead.js",
-        lineNumber: 5,
-        columnNumber: 9
-    }, undefined);
-};
-_c = TopHead;
-exports.default = TopHead;
-var _c;
-$RefreshReg$(_c, "TopHead");
-
-  $parcel$ReactRefreshHelpers$905f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -29670,6 +29546,158 @@ var _c;
 $RefreshReg$(_c, "Copyright");
 
   $parcel$ReactRefreshHelpers$d245.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jBisN":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$905f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$905f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const TopHead = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+            className: "flex justify-around items-center bg-[#f9f9f9] h-14 px-24 ",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: " hidden md:flex items-center gap-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                            class: "fa-solid fa-clock-rotate-left text-[#f27c1d] text-xl"
+                        }, void 0, false, {
+                            fileName: "src/components/TopHead.js",
+                            lineNumber: 8,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-sm",
+                            children: "Mon-Sat, 9am-7pm Closed Sundays"
+                        }, void 0, false, {
+                            fileName: "src/components/TopHead.js",
+                            lineNumber: 9,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/TopHead.js",
+                    lineNumber: 7,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex items-center gap-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                            class: "fa-regular fa-envelope text-[#f27c1d] text-xl"
+                        }, void 0, false, {
+                            fileName: "src/components/TopHead.js",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-sm",
+                            children: "info@sunadhtechnologies.com"
+                        }, void 0, false, {
+                            fileName: "src/components/TopHead.js",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/TopHead.js",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: " hidden md:bg-[#f27c1d] text-white h-14 md:flex items-center px-10 font-bold tracking-wider",
+                        children: "+91 7674 813 794"
+                    }, void 0, false, {
+                        fileName: "src/components/TopHead.js",
+                        lineNumber: 18,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/TopHead.js",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "hidden md:block",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "flex gap-8 text-[#f27c1d] text-lg",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "fa-brands fa-facebook-f"
+                            }, void 0, false, {
+                                fileName: "src/components/TopHead.js",
+                                lineNumber: 22,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "fa-brands fa-twitter"
+                            }, void 0, false, {
+                                fileName: "src/components/TopHead.js",
+                                lineNumber: 23,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "fa-brands fa-instagram"
+                            }, void 0, false, {
+                                fileName: "src/components/TopHead.js",
+                                lineNumber: 24,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "fa-brands fa-linkedin-in"
+                            }, void 0, false, {
+                                fileName: "src/components/TopHead.js",
+                                lineNumber: 25,
+                                columnNumber: 25
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                className: "fa-brands fa-youtube"
+                            }, void 0, false, {
+                                fileName: "src/components/TopHead.js",
+                                lineNumber: 26,
+                                columnNumber: 25
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/TopHead.js",
+                        lineNumber: 21,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/TopHead.js",
+                    lineNumber: 20,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/TopHead.js",
+            lineNumber: 6,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/TopHead.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, undefined);
+};
+_c = TopHead;
+exports.default = TopHead;
+var _c;
+$RefreshReg$(_c, "TopHead");
+
+  $parcel$ReactRefreshHelpers$905f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
