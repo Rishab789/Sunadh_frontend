@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
 
 
-        <header className={navbar ? 'sticky top-0  duration-500 shadow-lg w-full  md:px-32 font-sans  bg-white h-20 stick' : 'sticky top-0  w-full  md:px-32 font-sans  bg-white h-20 stick'}>
+        <header className={navbar ? 'sticky top-0 z-10  duration-500 shadow-lg w-full  md:px-32 font-sans  bg-white h-20 stick' : 'sticky top-0  w-full  md:px-32 font-sans  bg-white h-20 stick'}>
             <div className='h-20 md:h-20   flex flex-col justify-between px-0 md:px-5 md:flex-row  md:flex md:justify-between md:items-center '>
                 <div className=' md:block flex justify-between items-center '>
                     <Link to='/'> <img src={LOGO} className='cursor-pointer' /></Link>

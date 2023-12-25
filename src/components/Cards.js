@@ -22,7 +22,7 @@ const Cards = () => {
         <section className='mt-10 flex justify-center flex-col items-center'>
             <div className='flex flex-col md:grid grid-cols-3 gap-x-16 gap-y-20 card'>
                 <div ><img src={Tableau} />
-                    <img src={DotImage} className='absolute top-[-2rem] right-[-2rem]' height={100} width={100} />
+                    <img src={DotImage} className='absolute top-[-2rem] right-[-2rem] ' height={100} width={100} />
 
                     <p>Tableau Training</p>
                     <p>We will teach best Tableau course in Hyderabad is that no previous programming experience is required.</p></div>

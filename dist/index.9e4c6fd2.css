@@ -288,6 +288,18 @@ ul, ol {
   top: -2rem;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .float-right {
   float: right;
 }
@@ -595,16 +607,6 @@ ul, ol {
   padding-bottom: .5rem;
 }
 
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
-}
-
-.px-48 {
-  padding-left: 12rem;
-  padding-right: 12rem;
-}
-
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -655,6 +657,11 @@ ul, ol {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-\[\.7rem\] {
   font-size: .7rem;
 }
@@ -690,11 +697,6 @@ ul, ol {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -778,7 +780,7 @@ ul, ol {
   box-shadow: 0 10px 50px #0000001a;
 }
 
-.card p:nth-child(2n) {
+.card p:first-of-type {
   font-size: 1.25rem;
   font-weight: bold;
 }
