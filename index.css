@@ -48,3 +48,22 @@
 .icon p:nth-child(2n) {
     font-weight: bold;
 }
+
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.list li:hover {
+    background-color: rgb(238, 237, 237);
+}
+
+
+@media screen and (max-width:450px) {
+
+
+    .list1 li {
+        margin-bottom: 10px;
+    }
+
+}
